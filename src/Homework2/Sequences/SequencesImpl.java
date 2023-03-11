@@ -68,9 +68,10 @@ public class SequencesImpl implements Sequences {
     public void d(int n) {
         if (n <= 0) {
             System.out.println("Параметр n должен быть больше нуля");
-        }
-        for (int i = 1; i < n; i++) {
-            System.out.println((int) Math.pow(i, 3));
+        } else {
+            for (int i = 1; i <= n; i++) {
+                System.out.println((int) Math.pow(i, 3));
+            }
         }
     }
 
@@ -84,9 +85,10 @@ public class SequencesImpl implements Sequences {
         int startNum = -1;
         if (n <= 0) {
             System.out.println("Параметр n должен быть больше нуля");
-        }
-        for (int i = 0; i < n; i++) {
-            System.out.println(startNum = -startNum);
+        } else {
+            for (int i = 0; i < n; i++) {
+                System.out.println(startNum = -startNum);
+            }
         }
     }
 
@@ -99,11 +101,11 @@ public class SequencesImpl implements Sequences {
     public void f(int n) {
         if (n <= 0) {
             System.out.println("Параметр n должен быть больше нуля");
+        } else {
+            for (int i = 1; i <= n; i++) {
+                System.out.println(i % 2 == 0 ? -i : i);
+            }
         }
-        for (int i = 1; i <= n; i++) {
-            System.out.println(i % 2 == 0 ? -i : i);
-        }
-
     }
 
     /**
@@ -138,7 +140,7 @@ public class SequencesImpl implements Sequences {
         if (n <= 0) {
             System.out.println("Параметр n должен быть больше нуля");
         } else {
-            for (int i = 1; i < n; i++) {
+            for (int i = 1; i <= n; i++) {
                 System.out.println(i % 2 == 0 ? 0 : startNum++);
             }
         }
@@ -155,7 +157,7 @@ public class SequencesImpl implements Sequences {
         if (n <= 0) {
             System.out.println("Параметр n должен быть больше нуля");
         } else {
-            for (int i = 1; i < n; i++) {
+            for (int i = 1; i <= n; i++) {
                 System.out.println(startNum = startNum * i);
             }
         }
@@ -168,15 +170,19 @@ public class SequencesImpl implements Sequences {
      */
     @Override
     public void j(int n) {
-        int f1 = 1;
-        int f2 = 1;
-        int i = 0;
-        while (i < n) {
-            System.out.println(f1);
-            int f3 = f1 + f2;
-            f1 = f2;
-            f2 = f3;
-            i++;
+        if (n <= 0) {
+            System.out.println("Параметр n должен быть больше нуля");
+        } else {
+            int f1 = 1;
+            int f2 = 1;
+            int i = 0;
+            while (i < n) {
+                System.out.println(f1);
+                int f3 = f1 + f2;
+                f1 = f2;
+                f2 = f3;
+                i++;
+            }
         }
     }
 }
