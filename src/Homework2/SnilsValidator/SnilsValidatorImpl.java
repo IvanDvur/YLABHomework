@@ -3,16 +3,8 @@ package Homework2.SnilsValidator;
 public class SnilsValidatorImpl implements SnilsValidator {
     @Override
     public boolean validate(String snils) {
-        boolean result = false;
-        if (snils.length() != 11) {
-            System.out.println("Некорректный ввод. СНИЛС состоит из 11 цифр");
-            return result;
-        }
-        try {
-            Long.parseLong(snils);
-        } catch (NumberFormatException e) {
-            System.out.println("СНИЛС может состоять только из цифр");
-            return result;
+        if(!checkInput(snils)){
+            return false;
         }
         int sum = 0;
         int controlNum;
@@ -26,9 +18,20 @@ public class SnilsValidatorImpl implements SnilsValidator {
         } else {
             controlNum = sum % 101 == 100 ? 0 : sum % 101;
         }
-        if (controlNum == Integer.parseInt(snils.substring(9))) {
-            result = true;
+        return controlNum == Integer.parseInt(snils.substring(9));
+    }
+
+    public boolean checkInput(String snils){
+        if (snils.length() != 11) {
+            System.out.println("Некорректный ввод. СНИЛС состоит из 11 цифр");
+            return false;
         }
-        return result;
+        try {
+            Long.parseLong(snils);
+        } catch (NumberFormatException e) {
+            System.out.println("СНИЛС может состоять только из цифр");
+            return false;
+        }
+        return true;
     }
 }

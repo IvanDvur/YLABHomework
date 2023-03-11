@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ee3435-c767-4c2b-8009-49c8f9e0b5de" name="Changes" comment="">
+    <list default="true" id="60ee3435-c767-4c2b-8009-49c8f9e0b5de" name="Changes" comment="minor fixes and codestyle improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework2/ComplexNumbers/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/ComplexNumbers/ComplexNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework2/Sequences/SequencesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Sequences/SequencesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework2/SnilsValidator/SnilsValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/SnilsValidator/SnilsValidatorImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,8 +116,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SequencesTest" />
-        <item itemvalue="Application.ComplexNumbersTest" />
         <item itemvalue="Application.SnilsValidatorTest" />
+        <item itemvalue="Application.ComplexNumbersTest" />
         <item itemvalue="Application.StatsAccumulatorTest" />
         <item itemvalue="Application.RateLimiterPrinterTest" />
       </list>
@@ -133,7 +135,9 @@
       <workItem from="1677864995952" duration="5772000" />
       <workItem from="1677916996524" duration="649000" />
       <workItem from="1678467520844" duration="15402000" />
-      <workItem from="1678540409676" duration="362000" />
+      <workItem from="1678540409676" duration="1856000" />
+      <workItem from="1678557049668" duration="1485000" />
+      <workItem from="1678567524368" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677865160088</created>
@@ -156,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678485014535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Домашняя работа сделана">
+      <created>1678541079245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678541079245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

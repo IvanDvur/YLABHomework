@@ -22,7 +22,7 @@ public class ComplexNumber {
      * @param imaginary - мнимая часть кч
      */
     public ComplexNumber(double real, double imaginary) {
-        this(real);
+        this.real = real;
         this.imaginary = imaginary;
     }
 
