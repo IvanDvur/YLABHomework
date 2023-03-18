@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ee3435-c767-4c2b-8009-49c8f9e0b5de" name="Changes" comment="minor fixes and codestyle improvements">
+    <list default="true" id="60ee3435-c767-4c2b-8009-49c8f9e0b5de" name="Changes" comment="Homework3">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/DatedMap/DatedMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/DatedMap/DatedMapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/DatedMap/DatedMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/testData/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/testData/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/InvalidStringException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/OrgParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/OrgStructureParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/OrgStructureParserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/structure.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/PasswordValidator/Exceptions/WrongLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/PasswordValidator/Exceptions/WrongPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/PasswordValidator/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/PasswordValidator/ValidatePasswordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/Transliterator/Transliterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/Transliterator/TransliteratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/Transliterator/TransliteratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework2/ComplexNumbers/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/ComplexNumbers/ComplexNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework2/Sequences/SequencesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Sequences/SequencesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework2/SnilsValidator/SnilsValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/SnilsValidator/SnilsValidatorImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="homework2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,23 +57,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/AlgorithmsAlishev&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "create.test.in.the.same.root": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "last_opened_file_path": "D:/JavaProjects/YlabHomework/src/Homework3/FileSort/testData",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
-  <component name="RunManager" selected="Application.SequencesTest">
-    <configuration name="ComplexNumbersTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.ComplexNumbers.ComplexNumbersTest" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\YlabHomework\src\Homework3\FileSort\testData" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="DatedMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.DatedMap.DatedMapTest" />
       <module name="YlabHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.ComplexNumbers.*" />
+          <option name="PATTERN" value="Homework3.DatedMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateLimiterPrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.RateLimitedPrinter.RateLimiterPrinterTest" />
+    <configuration name="OrgParserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.OrgStructure.OrgParserTest" />
       <module name="YlabHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.RateLimitedPrinter.*" />
+          <option name="PATTERN" value="Homework3.OrgStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequencesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.Sequences.SequencesTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.FileSort.Test" />
       <module name="YlabHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.Sequences.*" />
+          <option name="PATTERN" value="Homework3.FileSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnilsValidatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.SnilsValidator.SnilsValidatorTest" />
+    <configuration name="TransliteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.Transliterator.TransliteratorTest" />
       <module name="YlabHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.SnilsValidator.*" />
+          <option name="PATTERN" value="Homework3.Transliterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsAccumulatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.StatsAccumulator.StatsAccumulatorTest" />
+    <configuration name="ValidatePasswordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.PasswordValidator.ValidatePasswordTest" />
       <module name="YlabHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.StatsAccumulator.*" />
+          <option name="PATTERN" value="Homework3.PasswordValidator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SequencesTest" />
-        <item itemvalue="Application.SnilsValidatorTest" />
-        <item itemvalue="Application.ComplexNumbersTest" />
-        <item itemvalue="Application.StatsAccumulatorTest" />
-        <item itemvalue="Application.RateLimiterPrinterTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TransliteratorTest" />
+        <item itemvalue="Application.OrgParserTest" />
+        <item itemvalue="Application.DatedMapTest" />
+        <item itemvalue="Application.ValidatePasswordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +168,19 @@
       <workItem from="1678467520844" duration="15402000" />
       <workItem from="1678540409676" duration="1856000" />
       <workItem from="1678557049668" duration="1485000" />
-      <workItem from="1678567524368" duration="1403000" />
+      <workItem from="1678567524368" duration="2755000" />
+      <workItem from="1678636983962" duration="71000" />
+      <workItem from="1679066526510" duration="614000" />
+      <workItem from="1679074872667" duration="3332000" />
+      <workItem from="1679078268680" duration="260000" />
+      <workItem from="1679078577095" duration="30000" />
+      <workItem from="1679078649055" duration="83000" />
+      <workItem from="1679078793901" duration="2068000" />
+      <workItem from="1679080884469" duration="273000" />
+      <workItem from="1679081191415" duration="118000" />
+      <workItem from="1679081353490" duration="13047000" />
+      <workItem from="1679118425476" duration="20318000" />
+      <workItem from="1679142595416" duration="15431000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677865160088</created>
@@ -167,8 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678541079245</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="minor fixes and codestyle improvements">
+      <created>1678568996265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678568996265</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <envs>
+      <env key="LC_ALL" value="ru_RU.utf8" />
+      <env key="LANG" value="&quot;$LC_ALL&quot;" />
+    </envs>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -199,6 +255,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Домашняя работа сделана" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашняя работа сделана" />
+    <MESSAGE value="minor fixes and codestyle improvements" />
+    <MESSAGE value="Homework3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework3" />
   </component>
 </project>
