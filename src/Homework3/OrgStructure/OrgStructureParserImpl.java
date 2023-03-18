@@ -78,15 +78,3 @@ public class OrgStructureParserImpl implements OrgStructureParser {
         return boss.getSubordinate().contains(employee);
     }
 }
-//        if(employee.getBoss()==null && structure.containsKey(employee.getBossId())){
-//            structure.get(employee.getBoss().getId()).getSubordinate().add(employee);
-//            employee.setBoss(structure.get(employee.getBossId()));
-//        }
-//        for(Long key:structure.keySet()){
-//            Employee currentEmployee = structure.get(key);
-//            Employee boss = structure.get(currentEmployee.getBossId());
-//            if(currentEmployee.getBoss()==null && structure.containsKey(currentEmployee.getBossId()) && currentEmployee.getBossId() != null){
-//                currentEmployee.setBoss(boss);
-//                boss.getSubordinate().add(currentEmployee);
-//            }
-//        }

@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ee3435-c767-4c2b-8009-49c8f9e0b5de" name="Changes" comment="Homework3">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/DatedMap/DatedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/DatedMap/DatedMapImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/DatedMap/DatedMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/testData/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/FileSort/testData/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/InvalidStringException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/OrgParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/OrgStructureParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/OrgStructureParserImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/structure.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/PasswordValidator/Exceptions/WrongLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/PasswordValidator/Exceptions/WrongPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/PasswordValidator/PasswordValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/PasswordValidator/ValidatePasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Transliterator/Transliterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Transliterator/TransliteratorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Transliterator/TransliteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="60ee3435-c767-4c2b-8009-49c8f9e0b5de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Homework3/OrgStructure/OrgStructureParserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/OrgStructure/OrgStructureParserImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +157,7 @@
       <workItem from="1679081191415" duration="118000" />
       <workItem from="1679081353490" duration="13047000" />
       <workItem from="1679118425476" duration="20318000" />
-      <workItem from="1679142595416" duration="15431000" />
+      <workItem from="1679142595416" duration="15757000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677865160088</created>
@@ -217,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678568996265</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Homework3">
+      <created>1679158403809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679158403809</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
