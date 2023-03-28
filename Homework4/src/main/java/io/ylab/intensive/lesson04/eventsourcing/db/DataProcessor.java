@@ -25,8 +25,8 @@ public class DataProcessor {
     }
 
     public void consumeMessages() {
-        try(Connection connection = rabbitmqConnectionFactory.newConnection();
-            Channel channel = connection.createChannel()) {
+        try (Connection connection = rabbitmqConnectionFactory.newConnection();
+             Channel channel = connection.createChannel()) {
             channel.queueDeclare("DB_QUEUE", true, false, false, null);
             while (!Thread.currentThread().isInterrupted()) {
                 GetResponse message = channel.basicGet("DB_QUEUE", true);
@@ -64,6 +64,9 @@ public class DataProcessor {
         try (java.sql.Connection connection = dataSource.getConnection();
              PreparedStatement ps = connection.prepareStatement(deleteQuery);
              PreparedStatement psFind = connection.prepareStatement(findIfExistsQuery)) {
+            if (deleteMessage.getId() == null) {
+                throw new SQLException();
+            }
             psFind.setLong(1, deleteMessage.getId());
             ResultSet rs = psFind.executeQuery();
             if (rs.next()) {
@@ -89,6 +92,9 @@ public class DataProcessor {
              PreparedStatement psInsert = connection.prepareStatement(insertQuery);
              PreparedStatement psUpdate = connection.prepareStatement(updateQuery);
              PreparedStatement psFind = connection.prepareStatement(findIfExistsQuery)) {
+            if(saveMessage.getId()==null){
+                throw new SQLException();
+            }
             psFind.setLong(1, saveMessage.getId());
             ResultSet rs = psFind.executeQuery();
             if (!rs.next()) {
