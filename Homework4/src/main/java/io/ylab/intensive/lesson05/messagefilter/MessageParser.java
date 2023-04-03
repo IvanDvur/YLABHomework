@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 public class MessageParser {
 
     public List<String> stringSplit(String message) {
-        Pattern p = Pattern.compile("([^a-zA-Zёа-яЁА-Я\\d\\s]+)");
+        Pattern p = Pattern.compile("([^a-zA-Zёа-яЁА-Я-\\d\\s]+)");
         String[] split = message.split(" ");
         List<String> list = new ArrayList<>();
         for (String s : split) {
@@ -37,7 +37,8 @@ public class MessageParser {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < words.size(); i++) {
             String currentWord = words.get(i);
-            if (i < words.size() - 1 && words.get(i + 1).matches("[.!;:,]+")) {
+            if (i > 0 && i < words.size() - 1 && (words.get(i + 1).matches("[.!;:,-]+") ||
+                                                    words.get(i-1).matches("[-]+"))) {
                 sb.append(currentWord);
             } else {
                 sb.append(currentWord);
