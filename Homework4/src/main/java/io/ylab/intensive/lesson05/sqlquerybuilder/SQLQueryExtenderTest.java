@@ -7,7 +7,7 @@ public class SQLQueryExtenderTest {
   public static void main(String[] args) throws Exception{
     AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(Config.class);
     applicationContext.start();
-
+    applicationContext.registerShutdownHook();
     SQLQueryBuilder queryBuilder = applicationContext.getBean(SQLQueryBuilder.class);
 
 //    Получение таблиц
@@ -21,6 +21,5 @@ public class SQLQueryExtenderTest {
       System.out.println("-------------------------------------------------------------------------------------------");
       System.out.println(queryBuilder.queryForTable(tableName));
     }
-    applicationContext.close();
   }
 }
