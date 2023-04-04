@@ -11,10 +11,16 @@ import java.util.regex.Pattern;
 public class MessageParser {
 
     public List<String> stringSplit(String message) {
-        Pattern p = Pattern.compile("([^a-zA-Zёа-яЁА-Я-\\d\\s\\n]+)");
-        String[] split = message.split("[\\s\\r\\n]");
+        Pattern p = Pattern.compile("\\W");
+        Pattern p1 = Pattern.compile("\\S+|\\s+");
+        Matcher m = p1.matcher(message);
+        List<String> res = new ArrayList<>();
+        while (m.find()) {
+            res.add(m.group());
+        }
+        System.out.println(res);
         List<String> list = new ArrayList<>();
-        for (String s : split) {
+        for (String s : res) {
             Matcher matcher = p.matcher(s);
             boolean found = false;
             int i = 0;
@@ -31,21 +37,6 @@ public class MessageParser {
                 list.add(s);
         }
         return list;
-    }
-
-    public String joinList(List<String> words) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < words.size(); i++) {
-            String currentWord = words.get(i);
-            if (i > 0 && i < words.size() - 1 && (words.get(i + 1).matches("[.!;?:,-]+") ||
-                                                    words.get(i-1).matches("[-]+"))) {
-                sb.append(currentWord);
-            } else {
-                sb.append(currentWord);
-                sb.append(" ");
-            }
-        }
-        return sb.toString();
     }
 
     public String censorWord(String word) {

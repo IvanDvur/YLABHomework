@@ -26,7 +26,6 @@ public class MessageFilter {
     private java.sql.Connection dbConnection;
     private final String FIND_WORD_QUERY = "SELECT word from slurs WHERE word ILIKE ?";
 
-
     @Autowired
     public MessageFilter(ConnectionFactory connectionFactory, DataSource dataSource, MessageParser parser) {
         try {
@@ -78,7 +77,7 @@ public class MessageFilter {
                     }
                 }
             }
-            result = parser.joinList(words);
+            result = String.join("",words);
             return result;
         } catch (SQLException e) {
             System.out.println("Ошибка при поиске слова");
