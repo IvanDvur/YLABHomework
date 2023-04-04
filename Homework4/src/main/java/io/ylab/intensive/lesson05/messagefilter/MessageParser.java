@@ -12,7 +12,6 @@ public class MessageParser {
 
     public List<String> stringSplit(String message) {
         Pattern p = Pattern.compile("([^a-zA-Zёа-яЁА-Я\\d]+)");
-//        Pattern p1 = Pattern.compile("\\S+|\\s+]");
         Pattern p1 = Pattern.compile("(\\s|\\S+)");
         Matcher m = p1.matcher(message);
         List<String> res = new ArrayList<>();
